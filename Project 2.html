@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+       <html lang="en">
+       <head>
+           <meta charset="UTF-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Document</title>
+       </head>
+       <style>
+       ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  margin-top:25px;
+  background:#F44;
+  height: 50px;
+  width: 470px
+}
+a {
+  text-decoration: none;
+  background:#FF4444;
+  color:#fff;
+  padding:0px 15px;
+  font-family: arial;
+  line-height:50px;
+  display: block; 
+  border-right: 1px solid #F36262;
+}
+a:hover {
+  background:#D43737;
+}
+
+  li {
+  float:left;
+  position:relative;
+}
+
+    li > ul {
+        position:absolute;
+        top: 25px;
+        display:none;   
+    }
+
+    li:hover > ul {
+        display:block; 
+        width: 240px;   
+    } 
+
+    li:hover > ul > li {
+        float:none;
+    }
+        </style>
+       <body>
+           <ul>
+               <li><a href="">Homepage</a></li>
+               <li><a href="">Patrion</a></li>
+               <li><a href="">Shop</a></li>
+               <li><a href="">Info</a></li>
+               <li><a href=""> Help and support</a>
+                   <ul>
+                       <li><a href="#"> Design </a></li>
+                       <li><a href="#"> Programming </a></li>
+                       <li><a href="#"> Learning of children </a></li>
+                       
+                       </ul></li> 
+           </ul>
+       </body>
+       </html>
+       
